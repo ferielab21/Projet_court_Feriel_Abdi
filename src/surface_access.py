@@ -212,7 +212,7 @@ def accessibility_surf(df_atom_surface):
     
     # Create a new data frame with only the desired columns
     df_residue_surface = pd.DataFrame(residue_access, columns=['Accessible_surface', 'Percentage_accessibility'])
-    df_residue_surface.to_csv("../results/access_df.csv")
+    df_residue_surface.to_csv("results/access_df.csv")
 	
     # Return the data frame with residue-level accessibility and the formatted result
     return df_residue_surface
