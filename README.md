@@ -54,3 +54,5 @@ $ python3 src/main.py 1b0q data/1b0q.pdb 96
 
 Feriel Abdi
 
+M2 - BI
+Université Paris Cité
