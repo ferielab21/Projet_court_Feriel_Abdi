@@ -3,10 +3,17 @@
 ## Description of project :
 Calculating the solvent-accessible surface of a protein
 
-## Conda environment :
+## Create conda environment :
 Run this command in your terminal to create the conda environment
+
 ```bash
-$ conda env create -f projet_court.yml
+$ conda create -n proj_court_env
+$ activate proj_court_env
+$ conda install pandas
+$ conda install -c conda-forge configargparse
+$ conda install -c anaconda numpy
+$ conda install -c conda-forge biopython
+$ conda install -c conda-forge matplotlib-base
 ```
 
 ### Python Packages required :
@@ -42,7 +49,7 @@ $ git clone https://github.com/ferielab21/Projet_court_Feriel_Abdi.git
 ```bash
 $ python3 main.py pdbname pdbfile nb_of_pts 
 ```
-/!\ Don't forget to replace the arguments with the protein's name, pdb file and the number of points you wish to create the sphere
+/!\ Don't forget to replace the arguments with the protein's name, pdb file and the number of points you wish to create the sphere with the correct directories
 
 ### Example :
 ```bash
