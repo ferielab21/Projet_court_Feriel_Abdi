@@ -35,7 +35,7 @@ In the src folder :
 
 #### Step 1 : Clone the repository (or download the file)
 ```bash
-$ git clone https://github.com/ferielab21/Projet_Court.git
+$ git clone https://github.com/ferielab21/Projet_court_Feriel_Abdi.git
 ```
 ### Step 2 : Run the code
 
