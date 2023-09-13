@@ -14,6 +14,9 @@ $ conda install -c conda-forge configargparse
 $ conda install -c anaconda numpy
 $ conda install -c conda-forge biopython
 $ conda install -c conda-forge matplotlib-base
+
+# This command will make sure the correct version of biopython is installed
+$ pip install biopython --upgrade
 ```
 
 ### Python Packages required :
