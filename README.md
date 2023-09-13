@@ -1,7 +1,7 @@
 # Projet_court_Feriel_Abdi
 ---------------------------------------------------------------
-## Description of project :
-Calculating the solvent-accessible surface of a protein
+## Description of the project :
+Calculation of the solvent-accessible surface of a protein
 
 ## Create conda environment :
 Run this command in your terminal to create the conda environment
