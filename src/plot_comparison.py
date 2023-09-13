@@ -26,7 +26,7 @@ def comp_plot(dtframe):
     plt.xlabel("Residues")
     plt.ylabel("Accessibility")
     plt.legend()
-    return plt.savefig("../results/plot.png")
+    return plt.savefig("results/plot.png")
 
 
 if __name__ == "__main__":
